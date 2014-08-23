@@ -1,6 +1,8 @@
 # Getting and Cleaning Data Course Project
 ## `run_analysis.R` Explained
 
+Assumption: The [Project Data File](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) has been extracted to the working directory.
+
 ### Requirement #1 - Merges the training and the test sets to create one data set
 
 1. Reads the test and train data sets each into their own data frame using `read.table`.
